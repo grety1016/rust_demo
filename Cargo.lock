@@ -3,5 +3,12 @@
 version = 3
 
 [[package]]
+name = "hello_world"
+version = "0.1.0"
+
+[[package]]
 name = "rust0"
 version = "0.1.0"
+dependencies = [
+ "hello_world",
+]
